@@ -5,7 +5,7 @@ db.produtos.updateMany(
   { 
     $currentDate: 
       { 
-        ultimaModificacao: { $type: "timestamp" },
+        ultimaModificacao: { $type: "date" },
       },
   },
 );
